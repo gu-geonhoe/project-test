@@ -10,6 +10,8 @@ import lombok.Setter;
 import javax.management.StandardEmitterMBean;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 
 @Getter
 @Setter
@@ -22,6 +24,9 @@ public class Question {
     private String content;
     private String userName;
     private Tag tag;
+    private String createAt;
+
+
 
     }
     //작성 시간 createAt
