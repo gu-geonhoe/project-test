@@ -1,4 +1,4 @@
-package com.example.apitest;
+package com.example.apitest.Comment;
 
 
 import lombok.AllArgsConstructor;

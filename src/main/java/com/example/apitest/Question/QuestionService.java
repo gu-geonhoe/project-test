@@ -1,6 +1,6 @@
 package com.example.apitest.Question;
 
-import com.example.apitest.Tag;
+import com.example.apitest.Tag.Tag;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;

@@ -1,4 +1,4 @@
-package com.example.apitest.User;
+package com.example.apitest.User.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -10,4 +10,5 @@ public class UserResponseDto {
     private String userName;
     private String email;
     private String password;
+
 }

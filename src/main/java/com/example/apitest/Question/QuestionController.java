@@ -1,8 +1,8 @@
 package com.example.apitest.Question;
 
 
-import com.example.apitest.Answer;
-import com.example.apitest.AnswerService;
+import com.example.apitest.Answer.Answer;
+import com.example.apitest.Answer.AnswerService;
 import com.example.apitest.TotalService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

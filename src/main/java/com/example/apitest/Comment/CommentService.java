@@ -1,6 +1,5 @@
-package com.example.apitest;
+package com.example.apitest.Comment;
 
-import com.example.apitest.Question.Question;
 import org.springframework.stereotype.Service;
 
 @Service
