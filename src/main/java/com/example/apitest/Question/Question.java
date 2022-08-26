@@ -1,17 +1,11 @@
 package com.example.apitest.Question;
 
 
-import com.example.apitest.Tag;
+import com.example.apitest.Tag.Tag;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-
-import javax.management.StandardEmitterMBean;
-import javax.persistence.JoinColumn;
-import javax.persistence.ManyToOne;
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
 
 @Getter
 @Setter

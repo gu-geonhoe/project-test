@@ -1,4 +1,4 @@
-package com.example.apitest;
+package com.example.apitest.Answer;
 
 
 import lombok.AllArgsConstructor;
@@ -10,10 +10,8 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class Tag {
-    private long tagId;
-    private String tagName;
-    private String tagInfo;
+public class Answer {
 
-
+    private long answerId;
+    private String content;
 }
